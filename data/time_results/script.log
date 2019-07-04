@@ -1,0 +1,460 @@
+test start
+
+limpiar todo el enviroment de r antes de comenzar
+
+librería para que read_table2 funcione
+
+cargar los resultados como numeros
+abrierto
+# A tibble: 15 x 12
+   `1mb.mp4` `2mb.mp4` `5mb.mp4` `10mb.mp4` `1m.txt` `3m.txt` `5m.txt` `10m.txt`
+       <dbl>     <dbl>     <dbl>      <dbl>    <dbl>    <dbl>    <dbl>     <dbl>
+ 1     0.316     0.623      1.33       2.25    0.303    0.804     1.31      2.25
+ 2     0.307     0.565      1.45       2.49    0.338    0.778     1.26      2.41
+ 3     0.323     0.595      1.30       2.28    0.331    0.840     1.19      2.38
+ 4     0.355     0.617      1.29       2.23    0.325    0.900     1.32      2.54
+ 5     0.326     0.609      1.31       2.38    0.356    0.744     1.38      2.49
+ 6     0.331     0.570      1.29       2.37    0.339    0.833     1.21      2.40
+ 7     0.320     0.633      1.39       2.31    0.352    0.785     1.24      2.32
+ 8     0.333     0.610      1.21       2.28    0.348    0.760     1.13      2.36
+ 9     0.350     0.628      1.17       2.41    0.342    0.828     1.36      2.42
+10     0.365     0.611      1.26       2.40    0.332    0.707     1.32      2.35
+11     0.310     0.669      1.18       2.44    0.301    0.852     1.27      2.23
+12     0.356     0.657      1.21       2.33    0.312    0.811     1.17      2.41
+13     0.327     0.636      1.35       2.38    0.323    0.760     1.21      2.44
+14     0.331     0.681      1.23       2.34    0.331    0.799     1.35      2.40
+15     0.318     0.670      1.13       2.34    0.370    0.672     1.34      2.37
+# … with 4 more variables: `1m.png` <dbl>, `3mb.png` <dbl>, `5mb.png` <dbl>,
+#   `10mb.png` <dbl>
+
+
+wap
+# A tibble: 15 x 12
+   `1mb.mp4` `2mb.mp4` `5mb.mp4` `10mb.mp4` `1m.txt` `3m.txt` `5m.txt` `10m.txt`
+       <dbl>     <dbl>     <dbl>      <dbl>    <dbl>    <dbl>    <dbl>     <dbl>
+ 1     0.416     0.587      1.29       2.29    0.332    0.879     1.28      2.57
+ 2     0.348     0.646      1.27       2.43    0.309    0.933     1.13      2.53
+ 3     0.328     0.548      1.28       2.36    0.327    0.899     1.16      2.43
+ 4     0.385     0.548      1.30       2.35    0.326    0.828     1.21      2.52
+ 5     0.305     0.653      1.27       2.50    0.287    0.833     1.30      2.43
+ 6     0.316     0.579      1.36       2.44    0.283    0.783     1.25      2.35
+ 7     0.302     0.552      1.25       2.38    0.352    0.844     1.15      2.44
+ 8     0.339     0.610      1.28       2.32    0.313    0.665     1.32      2.41
+ 9     0.328     0.602      1.28       2.46    0.316    0.887     1.24      2.46
+10     0.302     0.598      1.28       2.32    0.350    0.843     1.18      2.30
+11     0.350     0.582      1.34       2.53    0.347    0.753     1.33      2.55
+12     0.352     0.592      1.32       2.35    0.332    0.695     1.34      2.41
+13     0.398     0.610      1.35       2.37    0.371    0.785     1.24      2.50
+14     0.387     0.564      1.33       2.38    0.370    0.789     1.26      2.42
+15     0.406     0.562      1.24       2.50    0.350    0.752     1.33      2.44
+# … with 4 more variables: `1m.png` <dbl>, `3mb.png` <dbl>, `5mb.png` <dbl>,
+#   `10mb.png` <dbl>
+
+
+wap2
+# A tibble: 15 x 12
+   `1mb.mp4` `2mb.mp4` `5mb.mp4` `10mb.mp4` `1m.txt` `3m.txt` `5m.txt` `10m.txt`
+       <dbl>     <dbl>     <dbl>      <dbl>    <dbl>    <dbl>    <dbl>     <dbl>
+ 1     0.345     0.607      1.41       2.37    0.329    0.786     1.27      2.38
+ 2     0.316     0.558      1.34       2.34    0.336    0.848     1.30      2.35
+ 3     0.301     0.677      1.27       2.28    0.334    0.808     1.24      2.34
+ 4     0.344     0.552      1.40       2.34    0.331    0.861     1.17      2.40
+ 5     0.334     0.573      1.33       2.36    0.310    0.792     1.30      2.36
+ 6     0.309     0.517      1.31       2.35    0.322    0.815     1.21      2.38
+ 7     0.335     0.603      1.40       2.42    0.353    0.728     1.23      2.48
+ 8     0.336     0.630      1.24       2.46    0.303    0.767     1.28      2.38
+ 9     0.344     0.578      1.33       2.36    0.313    0.786     1.19      2.33
+10     0.300     0.609      1.34       2.44    0.319    0.840     1.20      2.35
+11     0.332     0.606      1.20       2.46    0.319    0.765     1.26      2.35
+12     0.315     0.595      1.35       2.49    0.371    0.839     1.17      2.37
+13     0.296     0.555      1.24       2.48    0.303    0.839     1.13      2.42
+14     0.318     0.527      1.27       2.29    0.356    0.871     1.26      2.39
+15     0.392     0.613      1.22       2.39    0.347    0.737     1.30      2.42
+# … with 4 more variables: `1m.png` <dbl>, `3mb.png` <dbl>, `5mb.png` <dbl>,
+#   `10mb.png` <dbl>
+
+
+=============================
+Open Pruebas de normalidad con Shapiro-Wilk
+=============================
+
+	Shapiro-Wilk normality test
+
+data:  open$"1mb.mp4"
+W = 0.92396, p-value = 0.2213
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"2mb.mp4"
+W = 0.96118, p-value = 0.7128
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"5mb.mp4"
+W = 0.97899, p-value = 0.9621
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"10mb.mp4"
+W = 0.98367, p-value = 0.9885
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"1m.txt"
+W = 0.97797, p-value = 0.9537
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"3m.txt"
+W = 0.98596, p-value = 0.995
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"5m.txt"
+W = 0.94548, p-value = 0.4563
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"10m.txt"
+W = 0.95649, p-value = 0.6317
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"1m.png"
+W = 0.93132, p-value = 0.2856
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"3mb.png"
+W = 0.93791, p-value = 0.3568
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"5mb.png"
+W = 0.94954, p-value = 0.5172
+
+
+	Shapiro-Wilk normality test
+
+data:  open$"10mb.png"
+W = 0.93028, p-value = 0.2756
+
+
+
+=============================
+WPA Pruebas de normalidad con Shapiro-Wilk
+=============================
+
+	Shapiro-Wilk normality test
+
+data:  wap$"1mb.mp4"
+W = 0.92189, p-value = 0.2058
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"2mb.mp4"
+W = 0.9338, p-value = 0.3108
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"5mb.mp4"
+W = 0.93347, p-value = 0.3073
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"10mb.mp4"
+W = 0.9399, p-value = 0.3812
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"1m.txt"
+W = 0.95844, p-value = 0.6653
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"3m.txt"
+W = 0.97317, p-value = 0.9019
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"5m.txt"
+W = 0.92936, p-value = 0.2669
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"10m.txt"
+W = 0.96133, p-value = 0.7155
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"1m.png"
+W = 0.91223, p-value = 0.1465
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"3mb.png"
+W = 0.90871, p-value = 0.1294
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"5mb.png"
+W = 0.96028, p-value = 0.6973
+
+
+	Shapiro-Wilk normality test
+
+data:  wap$"10mb.png"
+W = 0.93056, p-value = 0.2782
+
+
+
+=============================
+WPA2 Pruebas de normalidad con Shapiro-Wilk
+=============================
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"1mb.mp4"
+W = 0.9017, p-value = 0.101
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"2mb.mp4"
+W = 0.96611, p-value = 0.7969
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"5mb.mp4"
+W = 0.94531, p-value = 0.4538
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"10mb.mp4"
+W = 0.94089, p-value = 0.3937
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"1m.txt"
+W = 0.9561, p-value = 0.625
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"3m.txt"
+W = 0.95644, p-value = 0.6307
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"5m.txt"
+W = 0.9328, p-value = 0.3003
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"10m.txt"
+W = 0.89554, p-value = 0.08137
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"1m.png"
+W = 0.93777, p-value = 0.3552
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"3mb.png"
+W = 0.95709, p-value = 0.642
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"5mb.png"
+W = 0.90465, p-value = 0.1121
+
+
+	Shapiro-Wilk normality test
+
+data:  wap2$"10mb.png"
+W = 0.957, p-value = 0.6405
+
+
+=============================
+Pruebas de student-t
+=============================
+
+open contra los otros
+	One Sample t-test
+
+data:  open$"1mb.mp4"
+t = 72.453, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.3213579 0.3409644
+sample estimates:
+mean of x 
+0.3311611 
+
+
+	One Sample t-test
+
+data:  open$"1mb.mp4"
+t = 72.453, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.3213579 0.3409644
+sample estimates:
+mean of x 
+0.3311611 
+
+
+	One Sample t-test
+
+data:  open$"1mb.mp4"
+t = 72.453, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.3213579 0.3409644
+sample estimates:
+mean of x 
+0.3311611 
+
+
+	One Sample t-test
+
+data:  open$"1mb.mp4"
+t = 72.453, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 0.3213579 0.3409644
+sample estimates:
+mean of x 
+0.3311611 
+
+
+dos mb de mp4 no se copara contra tres mb de los otros
+
+5mb
+
+	One Sample t-test
+
+data:  open$"5mb.mp4"
+t = 56.286, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.224538 1.321557
+sample estimates:
+mean of x 
+ 1.273047 
+
+
+	Welch Two Sample t-test
+
+data:  open$"5mb.mp4" and wap$"5mb.png"
+t = -0.7154, df = 19.767, p-value = 0.4827
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06989431  0.03421564
+sample estimates:
+mean of x mean of y 
+ 1.273047  1.290887 
+
+
+	One Sample t-test
+
+data:  open$"5mb.mp4"
+t = 56.286, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 1.224538 1.321557
+sample estimates:
+mean of x 
+ 1.273047 
+
+
+	Welch Two Sample t-test
+
+data:  open$"5mb.mp4" and wap2$"5mb.png"
+t = -0.20596, df = 26.848, p-value = 0.8384
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.06574582  0.05375382
+sample estimates:
+mean of x mean of y 
+ 1.273047  1.279043 
+
+
+10mb
+
+	One Sample t-test
+
+data:  open$"10mb.mp4"
+t = 127.45, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 2.308862 2.387902
+sample estimates:
+mean of x 
+ 2.348382 
+
+
+	Welch Two Sample t-test
+
+data:  open$"10mb.mp4" and wap$"10mb.png"
+t = -1.5797, df = 27.798, p-value = 0.1255
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.09887101  0.01278968
+sample estimates:
+mean of x mean of y 
+ 2.348382  2.391423 
+
+
+	One Sample t-test
+
+data:  open$"10mb.mp4"
+t = 127.45, df = 14, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 2.308862 2.387902
+sample estimates:
+mean of x 
+ 2.348382 
+
+
+	Welch Two Sample t-test
+
+data:  open$"10mb.mp4" and wap2$"10mb.png"
+t = -0.75694, df = 27.929, p-value = 0.4554
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -0.07132729  0.03283929
+sample estimates:
+mean of x mean of y 
+ 2.348382  2.367626 
+

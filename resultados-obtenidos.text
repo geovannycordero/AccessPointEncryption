@@ -1,0 +1,157 @@
+\begin{enumerate}
+            \item  Duración en segundos de transmisión de 1 KB datos
+                     \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+                    1&0.00264295&0.00309321&0.00324067\\\hline
+                    2&0.00379808&0.00476665&0.00321702\\\hline
+                    3&0.00504767&0.00778643&0.00294334\\\hline
+                    4&0.00609076&0.00260107&0.00259043\\\hline
+                    5&0.00307743&0.00310982&0.00349192\\\hline
+                    6&0.00383201&0.00383600&0.00264429\\\hline
+                    7&0.00405882&0.00342979&0.00371812\\\hline
+                    8&0.00315628&0.00431057&0.00294195\\\hline
+                    9&0.00296193&0.00259647&0.00273309\\\hline
+                    20&0.00276486&0.00580759&0.00288376\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 1 k datos}
+        \label{tab:1k}
+    \end{table}
+
+     \item  Duración en segundos de transmisión de 10 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.00915849&0.0114377&0.00820059\\\hline
+            2&0.0144951&0.00952598&0.00807193\\\hline
+            3&0.00594138&0.00823375&0.00620269\\\hline
+            4&0.00698151&0.0087527&0.00876431\\\hline
+            5&0.00535313&0.0063025&0.00598835\\\hline
+            6&0.00814926&0.00770574&0.00652636\\\hline
+            7&0.0105209&0.0119147&0.0082085\\\hline
+            8&0.00677287&0.00788308&0.00632039\\\hline
+            9&0.00791925&0.0122825&0.00756679\\\hline
+            10&0.00528433&0.00859412&0.00698296\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 10 kb de datos}
+        \label{tab:10k}
+    \end{table}
+     \item  Duración en segundos de transmisión de 100 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.0750161&0.0576355&0.0699199\\\hline
+            2&0.0458618&0.0418722&0.0665042\\\hline
+            3&0.0602193&0.052931&0.0649332\\\hline
+            4&0.0769647&0.0424951&0.0612697\\\hline
+            5&0.0473395&0.0499058&0.0613673\\\hline
+            6&0.0617202&0.0448732&0.0639479\\\hline
+            7&0.0556235&0.0475118&0.0613678\\\hline
+            8&0.0388021&0.0545409&0.0620089\\\hline
+            9&0.0562626&0.0433476&0.0627752\\\hline
+            10&0.0526739&0.0415284&0.0643553\\\hline
+            10&0.00528433&0.00859412&0.00698296\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 100 kb datos}
+        \label{tab:100k}
+    \end{table}
+    \item  Duración en segundos de transmisión de 128 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.0769835&0.0627720&0.0767410\\\hline
+            2&0.0588351&0.0706923&0.0798836\\\hline
+            3&0.0759453&0.0714868&0.0899523\\\hline
+            4&0.0776546&0.0656096&0.0952661\\\hline
+            5&0.0630309&0.0556921&0.0773883\\\hline
+            6&0.0663549&0.0617963&0.0755743\\\hline
+            7&0.0625628&0.0734847&0.1058230\\\hline
+            8&0.0548872&0.0741962&0.0728025\\\hline
+            9&0.0587322&0.0735267&0.0633715\\\hline
+            10&0.0665623&0.0711908&0.0689381\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 128 kb datos}
+        \label{tab:128k}
+    \end{table}
+    \item  Duración en segundos de transmisión de 256 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.224546&0.147434&0.146419\\\hline
+            2&0.156823&0.181222&0.117999\\\hline
+            3&0.142788&0.135949&0.146199\\\hline
+            4&0.298141&0.142591&0.183936\\\hline
+            5&0.232525&0.13845&0.188116\\\hline
+            6&0.267014&0.149654&0.181364\\\hline
+            7&0.285934&0.123663&0.144716\\\hline
+            8&0.1137&0.13123&0.130347\\\hline
+            9&0.157042&0.144952&0.119488\\\hline
+            10&0.233691&0.175&0.131233\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 256 KB datoss}
+        \label{tab:256k}
+    \end{table}
+    \item  Duración en segundos de transmisión de 512 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.348529&0.247004&0.222162\\\hline
+            2&0.523281&0.241449&0.220938\\\hline
+            3&0.301091&0.331136&0.254268\\\hline
+            4&0.418154&0.270468&0.269753\\\hline
+            5&0.414056&0.287455&0.273904\\\hline
+            6&0.381499&0.258452&0.253368\\\hline
+            7&0.255727&0.232839&0.241937\\\hline
+            8&0.351524&0.221551&0.295207\\\hline
+            9&0.39649&0.227225&0.243191\\\hline
+            10&0.339719&0.236036&0.232094\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 512 KB de datos}
+        \label{tab:512kb}
+    \end{table}
+    \item  Duración en segundos de transmisión de 1024 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&0.560072&0.404079&0.560857\\\hline
+            2&0.49537&0.38606&0.404256\\\hline
+            3&0.435413&0.343275&0.424796\\\hline
+            4&0.444041&0.304439&0.507533\\\hline
+            5&0.373913&0.386594&0.433935\\\hline
+            6&0.384846&0.362804&0.49468\\\hline
+            7&0.427059&0.319342&0.455126\\\hline
+            8&0.432229&0.34043&0.418394\\\hline
+            9&0.41737&0.473162&0.347426\\\hline
+            10&0.397435&0.424387&0.393856\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 1024 KB de datos}
+        \label{tab:1024kb}
+    \end{table}
+    \item  Duración en segundos de transmisión de 10420 KB datos
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline \multirow{2}{*}{Numero de prueba}&\multicolumn{3}{c|}{Tipo de cifrado}\\\cline{2-4}
+            &Red Abierta& Cifrado WAP&Cifrado WAP2\\\hline
+            1&3.0684&2.59782&3.83766\\\hline
+            2&2.82316&3.06629&3.48386\\\hline
+            3&2.91265&2.98214&3.17684\\\hline
+            4&2.738&2.98569&3.71347\\\hline
+            5&2.72133&2.9422&4.8805\\\hline
+            6&2.65028&3.1677&4.13535\\\hline
+            7&2.94514&3.02691&3.02209\\\hline
+            8&2.65262&3.11464&3.07515\\\hline
+            9&2.47557&2.59181&4.54639\\\hline
+            10&2.56103&2.9224&3.02861\\\hline
+        \end{tabular}
+        \caption{Duración de transmisión de 10 420 KB de datos}
+        \label{tab:10420kb}
+    \end{table}
+                \end{enumerate}
+        
