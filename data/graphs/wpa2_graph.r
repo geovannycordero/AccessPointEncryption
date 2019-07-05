@@ -14,7 +14,7 @@ plot(data$mp4, type="o", col=plot_colors[1],
 
 axis(1, at=1:4, lab=c("1mb", "3mb", "5mb", "10mb"))
 
-axis(2, las=1, at=4*0:max_y)
+axis(2, las=2, labels=NULL)
 
 box()
 
@@ -26,7 +26,7 @@ lines(data$png, type="o", pch=23, lty=3,
 
 title(main="WPA2", col.main="red", font.main=4)
 title(xlab= "Tamaño", col.lab=rgb(0,0.5,0))
-title(ylab= "Tiempo", col.lab=rgb(0,0.5,0))
+title(ylab= "Tiempo (s)", col.lab=rgb(0,0.5,0))
 
 legend(1, max_y, names(data), cex=0.8, col=plot_colors,
    pch=21:23, lty=1:3);
